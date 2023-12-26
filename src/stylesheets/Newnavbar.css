@@ -1,0 +1,125 @@
+#newnav{
+    background-color:  #2874F0;
+    height: 3.2rem;
+    font-family: 'Inter', sans-serif;
+}
+#newnav .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+    padding-left: 10.5rem;
+    height: 100%;
+}
+#newnav .nav > img{
+    width: 4.3rem;
+}
+#newnav .input-sec{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 38%;
+    justify-content: space-evenly;
+    border-radius:0.1rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#newnav .input-sec input{
+    padding: .5rem .8rem ;
+    width: 90%;
+    border: none;
+    border-radius: 0.1rem;
+    outline: none;
+}
+#newnav .nav .fa-magnifying-glass{
+    padding: 0 .5rem;
+    color: #2874F0;
+    cursor: pointer;
+}
+#newnav .account{
+background-color: #fff;
+color: #2874F0;
+padding: 0.4rem 2rem;
+border: none;
+border-radius: 0.1rem;
+cursor: pointer;
+}
+#newnav .account p{
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #2874F0;
+}
+#newnav p {
+    font-weight: 600;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+#newnav .more{
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    margin: 0 1rem;
+}
+#newnav .fa-chevron-down{
+    font-size: 0.5rem;
+}
+#newnav .cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.2rem;
+    color: #fff;
+}
+#newnav .arrow2{
+    transform: rotate(0deg);
+    transition: all ease 0.5s;
+}
+#newnav .arrow{
+    transform: rotate(180deg);
+    transition: all ease 0.5s;
+}
+#newnav .more .holder{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2.2rem;
+    width:14.5rem;
+    background-color: #ffff;
+    z-index: 2;
+    border-radius: 0.2rem;
+    height: 11.5rem;
+    justify-content:space-between;
+}
+#newnav .more .holder .box,
+#newnav .more .holder .box p{
+    color: #000;
+    display: flex;
+}
+#newnav .more .holder .box{
+    border-bottom: 2px solid #F8F8F8;
+    padding: 0.6rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+#newnav .more .holder .shap{
+    background-color: #fff;
+    width:1.5rem;
+    height: 1.5rem;
+    z-index:-1;
+    position: absolute;
+    top: -.8rem;
+    left: 6.5rem;
+    transform:rotate(45deg);
+}
+#newnav .more .holder p{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+#newnav .more .holder i{
+    color: #2874F0;
+}
+

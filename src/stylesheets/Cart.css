@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800;900&display=swap');
+#cart{
+    width: 100%;
+    border: 1px solid red;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-family: 'Inter', sans-serif; 
+     padding-top: 5rem;
+     
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#cart .container{
+    width: 96%;
+    height: 100%;
+
+}
+#cart .container h2{
+    text-align: center;
+}
+#cart .container .cart-sec{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    height:17rem;
+    margin-bottom: 0.2rem;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#cart .box{
+    display: flex;
+    gap: 2rem;
+    padding: 0.3rem;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#cart .box1{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+#cart .img-sec{
+    padding: 0.3rem;
+    border: 1px solid black;
+    box-shadow:5px 5px 10px #555;
+    border-radius: 3px;
+    
+}
+#cart .box1 > p{
+    margin-top: .5rem;
+    width: 20vw;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#cart .product{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 0.3rem;
+    overflow-y:auto;
+    height: 100%;
+}
+#cart .mini{
+    display: flex;
+    gap: 1rem;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+#cart .mini p{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+#cart .mini .fa-x{
+    font-size: 1rem;
+    padding: .4rem 1.5rem;
+    background-color: red;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#cart .mini .fa-x:hover{
+  transform: scale(1.1);
+}
+#cart img{
+    width: 5rem;
+}
+#cart .amount{
+    border-left: 0.1rem solid black;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+#cart .amount p{
+    font-weight: bold;
+}
+#cart .amount h2{
+    font-size: 1rem;
+    margin-top: 0.3rem;
+}
+#cart .amount .list,
+#cart .amount .subtotal,
+#cart .amount .tex{
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem;
+}
+#cart .amount .total .btn-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+#cart .amount .total .btn-sec button{
+    width:100%;
+    padding: .5rem 0;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+#cart .amount .total .to{
+ display: flex;
+ justify-content: space-between;
+ font-size:1.2rem ;
+}
+#cart .amount .total .card{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    margin-top: 0.4rem;
+}
+#cart .amount .total .card img{
+    width: 2.5rem;
+    
+}
+#cart .name button{
+    padding: 0.5rem 0.7rem;
+    font-weight: 600;
+    background-color: black;
+    border: none;
+    margin-bottom: 0.3rem;
+}
+#cart .name button a{
+    text-decoration: none;
+    color: #fff;
+}

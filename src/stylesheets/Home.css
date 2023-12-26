@@ -1,0 +1,229 @@
+.home{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+}
+.home .container{
+    background-color:#FFFFFF ;
+    width: 91%;
+    height:8rem;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin: 0.5rem .9rem;
+    padding: .8rem .9rem ;
+    margin-top:5rem;
+}
+.home .container img{
+    width: 4rem;
+}
+.home .box{
+    width: 9%;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.home .box P{
+    opacity: 0.9;
+    font-size:0.9rem;
+}
+.container2{
+    width: 91%;
+    border-radius: 2px;
+}
+.owl-theme .owl-dots .owl-dot{
+    color: black;
+    background-color:#FFFFFF;
+    border-radius: 0.4rem;
+}
+.container3{
+    width: 91%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.container4{
+    width: 91%;
+    height:fit-content;
+    background-color: #FFFFFF;
+}
+.container4 .first{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size:1.3rem;
+    opacity: .9;
+    color: #212121;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+.container4 .first .bx{
+    border-radius: 50%;
+    padding: 0.3rem;
+    color: #fff;
+    font-size: 1.3rem;
+    background-color: blue;
+    cursor: pointer;
+}
+.container4 .sec{
+    display: flex;
+    justify-content: space-between;
+}
+.container4 .sec .box{
+    border: 1px solid #E0E0E0;
+    width: 15%;
+    margin: 1rem 0;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0;
+
+}
+.container4 .sec .box img{
+    width: 7rem;
+}
+.container4 .sec .box p{
+    margin-top: 0.5rem;
+}
+.container5{
+    width: 91%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.container5 img{
+    width: 20.5rem;
+}
+.container6{
+    width: 95%;
+    color: #565656;
+    margin-bottom: 1rem;
+}
+.container7{
+    width: 91%;
+    height:fit-content;
+    background-color: #FFFFFF;
+}
+.container7 .first{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size:1.3rem;
+    opacity: .9;
+    color: #212121;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+.container7 .first .bx{
+    border-radius: 50%;
+    padding: 0.3rem;
+    color: #fff;
+    font-size: 1.3rem;
+    background-color: blue;
+    cursor: pointer;
+}
+.container7 .sec{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container7 .sec .box{
+    border: 1px solid #E0E0E0;
+    margin: 0.3rem;
+    height: 15.5rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    text-align:start;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    position: relative;
+}
+.container7 .sec .img-sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    padding: 0.3rem;
+    border-bottom: 1px solid #E0E0E0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px
+}
+.container7 .sec .box img{
+    width: 80%;
+    height: 100%;
+}
+.container7 .box p{
+    margin-top: .4rem;
+    width: 100%;
+    padding: .5rem;
+}
+.container7 .box button{
+    position: absolute;
+    bottom: 0.5rem;
+    align-self: center;
+    padding: .3rem .7rem;
+    border-radius: 2px;
+    background-color: #565656;
+    color: #E0E0E0;
+    cursor: pointer;
+    transition: .3s;
+    border: none;
+}
+.container7 .box button:hover{
+    transform: scale(1.1);
+}
+
+.worn{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    display: none;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: .6rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding: 0.3rem;
+}
+
+
+@media (width <= 1280px){
+    .home .container{
+        margin-top: 8.2rem;
+    }
+}
+@media (width < 885px){
+    .home .container{
+        margin-top: 6.5rem;
+    }
+    .container5 img{
+       width: 17rem;
+    }
+}
+@media (width < 768px){
+    .home{
+        display: none;
+    }
+
+    .worn{
+        display: flex;
+    }
+}
